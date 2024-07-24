@@ -4,12 +4,9 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines. We will create a Domain Controller and a Client VM, ensure connectivity, and set up Active Directory with user accounts. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -25,10 +22,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1 Create the Domain Controller named DC-1
+- Step 2 Create the Client VM (Windows 10) named Client-1
+- Step 3 Ensure Connectivity between the Client and Domain Controller
+- Step 4 Install Active Directory
 
 <h2>Deployment and Configuration Steps</h2>
 
