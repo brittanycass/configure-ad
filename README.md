@@ -80,6 +80,9 @@ check back at `Client-1` to see the ping succeed. Once the traffic is enabled, t
  **Promote as a DC**
    - Set up a new forest as `mydomain.com` (it can be anything; just remember what it is).
    - Restart and log back into `DC-1` as user: `mydomain.com\labuser`.
+   - 
+   ![image](https://github.com/user-attachments/assets/b4f3c448-a130-46ed-8cd9-b0d37f83ae53)
+
 <br />
 
 ## Create Admin and Normal User Accounts in AD
@@ -91,6 +94,15 @@ check back at `Client-1` to see the ping succeed. Once the traffic is enabled, t
    - Add `jane_admin` to the `Domain Admins` Security Group.
    - Log out/close the Remote Desktop connection to `DC-1` and log back in as `mydomain.com\jane_admin`.
    - Use `jane_admin` as your admin account from now on.
+
+   - ![image](https://github.com/user-attachments/assets/2d7bdd7e-8c39-48f8-af7d-bf988c2055fb)
+
+
+![image](https://github.com/user-attachments/assets/15c5fcf5-5074-4f06-8c08-75494e08a3b4)
+
+
+![image](https://github.com/user-attachments/assets/ec32278f-0855-4e22-b587-9274d04ca470)
+
 
 ## Join Client-1 to Your Domain
 
@@ -121,6 +133,9 @@ check back at `Client-1` to see the ping succeed. Once the traffic is enabled, t
  **Open PowerShell_ise as an administrator**
    - Create a new File and paste the contents of the script into it ([Generate-Names-Create-Users.ps1](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)).
    - Run the script and observe the accounts being created.
+
+   - ![image](https://github.com/user-attachments/assets/a08b614d-5bbb-48bf-8995-195712e929e9)
+
 
  **When finished, open ADUC and observe the accounts in the appropriate OU**
    - Attempt to log into `Client-1` with one of the accounts (take note of the password in the script).
